@@ -1,0 +1,34 @@
+using System;
+
+namespace Gong_Xi_Gong_Xi_Gong_Xi_Ni
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.Write("Gong Xi");
+                    if (j < 2)
+                    {
+                        Console.WriteLine("");
+                    }
+                    else
+                    {
+                        Console.Write(" Ni");
+                    }
+                }
+                if (i == 0)
+                {
+                    Console.WriteLine(" A");
+                }
+                else
+                {
+                    Console.WriteLine("");
+                }
+            }
+        }
+    }
+}
